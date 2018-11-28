@@ -1,0 +1,41 @@
+{
+  "fileheader.Author": "kangxuanxin（602095770@qq.com)",
+  "fileheader.LastModifiedBy": "kangxuanxin（602095770@qq.com)",
+  "eslint.autoFixOnSave": true,
+  // "fileheader.tpl": "/*\r\n *===============DdmgCloudPlatform3 V2.0==============\r\n * DdmgCloudPlatform3 V2.0\r\n * Copyright@大大买钢2018,All Rights Reserved\r\n * Author: {author} \r\n * @Date: {updateTime}\r\n * TODO: 描述一下这个文件是干啥用的 \r\n *===============DdmgCloudPlatform3 V2.0==============\r\n*/\r\n",
+  "eslint.validate": [
+    "javascript",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    "html",
+    "vue"
+  ],
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Menlo",
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "file_peek.activeLanguages": [
+    "typescript",
+    "javascript",
+    "python",
+    "vue" // 添加vue支持
+  ],
+  "file_peek.searchFileExtensions": [
+    ".js",
+    ".ts",
+    ".html",
+    ".css",
+    ".scss",
+    ".vue" // 添加vue支持
+  ],
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 0,
+  "workbench.iconTheme": "material-icon-theme",
+  "javascript.validate.enable": false
+}
