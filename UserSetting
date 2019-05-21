@@ -18,6 +18,7 @@
   "vetur.format.defaultFormatter.scss": "prettier",
   "prettier.singleQuote": true,
   "prettier.semi": false,
+  "prettier.eslintIntegration": true, //让prettier使用eslint的代码格式进行校验
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
   "editor.wordWrap": "wordWrapColumn",
   "file_peek.activeLanguages": [
@@ -37,5 +38,14 @@
   "explorer.confirmDelete": false,
   "window.zoomLevel": 0,
   "workbench.iconTheme": "material-icon-theme",
-  "javascript.validate.enable": false
+  "javascript.validate.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "workbench.activityBar.visible": true,
+  "terminal.integrated.rendererType": "dom",
+  "eslint.alwaysShowStatus": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
