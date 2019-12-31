@@ -1,51 +1,70 @@
 {
-  "fileheader.Author": "kangxuanxin（602095770@qq.com)",
-  "fileheader.LastModifiedBy": "kangxuanxin（602095770@qq.com)",
-  "eslint.autoFixOnSave": true,
-  // "fileheader.tpl": "/*\r\n *===============DdmgCloudPlatform3 V2.0==============\r\n * DdmgCloudPlatform3 V2.0\r\n * Copyright@大大买钢2018,All Rights Reserved\r\n * Author: {author} \r\n * @Date: {updateTime}\r\n * TODO: 描述一下这个文件是干啥用的 \r\n *===============DdmgCloudPlatform3 V2.0==============\r\n*/\r\n",
   "eslint.validate": [
     "javascript",
     {
-      "language": "vue",
+      "language": "html",
       "autoFix": true
     },
-    "html",
-    "vue"
+    {
+      "language": "vue",
+      "autoFix": true
+    }
   ],
-  "editor.fontSize": 16,
-  "editor.fontFamily": "Menlo",
-  "vetur.format.defaultFormatter.html": "prettier",
-  "vetur.format.defaultFormatter.scss": "prettier",
-  "prettier.singleQuote": true,
-  "prettier.semi": false,
-  "prettier.eslintIntegration": true, //让prettier使用eslint的代码格式进行校验
-  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "workbench.iconTheme": "file-icons",
+  "editor.fontSize": 20,
+  "editor.fontFamily": "Consolas",
+  // Set the default
+  "editor.formatOnSave": false,
+  "eslint.autoFixOnSave": true,
   "editor.wordWrap": "wordWrapColumn",
-  "file_peek.activeLanguages": [
-    "typescript",
-    "javascript",
-    "python",
-    "vue" // 添加vue支持
-  ],
-  "file_peek.searchFileExtensions": [
-    ".js",
-    ".ts",
-    ".html",
-    ".css",
-    ".scss",
-    ".vue" // 添加vue支持
-  ],
-  "explorer.confirmDelete": false,
-  "window.zoomLevel": 0,
-  "workbench.iconTheme": "material-icon-theme",
-  "javascript.validate.enable": false,
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "workbench.activityBar.visible": true,
-  "terminal.integrated.rendererType": "dom",
-  "eslint.alwaysShowStatus": true,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "[javascript]": {
+  "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "update.enableWindowsBackgroundUpdates": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "vetur.format.defaultFormatter.html": "prettier",
+  "html.format.preserveNewLines": false,
+  "editor.tabSize": 2,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.spaceBeforeFunctionParen": true,
+  "prettier.bracketSpacing": false,
+  "prettier.useTabs": false,
+  "prettier.tabWidth": 2,
+  "prettier.jsxBracketSameLine": true,
+  "vetur.format.defaultFormatterOptions": {
+    "prettyhtml": {
+      "printWidth": 120
+    },
+    "prettier": {
+      "semi": false,
+      "eslintIntegration": true,
+      "bracketSpacing": true,
+      "jsxBracketSameLine": true,
+      "singleQuote": true,
+    },
+    "prettier-eslint": {
+      "semi": false
+    }
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "prettier.printWidth": 160,
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "task.slowProviderWarning": [
+    "npm"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
 }
